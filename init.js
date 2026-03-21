@@ -90,7 +90,7 @@ const {
 } = require('gulp');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
-const autoprefixer = require('gulp-autoprefixer').default;
+const autoprefixer = require('gulp-autoprefixer');
 const scss = require('gulp-sass')(require('sass'));
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
