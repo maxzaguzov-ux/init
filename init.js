@@ -41,7 +41,7 @@ const projectFiles = [
     "browser-sync": "^3.0.4",
     "del": "^6.1.1",
     "gulp": "^5.0.1",
-    "gulp-autoprefixer": "^10.0.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.1.0",
