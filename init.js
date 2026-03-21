@@ -204,7 +204,7 @@ function createSource() {
     });
 
     const files = {
-        'app/index.html': '<!DOCTYPE html>\\n<html lang="ru">\\n<head>\\n    <meta charset="UTF-8">\\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\\n    <link rel="stylesheet" href="css/style.min.css">\\n    <title>Project</title>\\n</head>\\n<body>\\n    <h1>Project Ready</h1>\\n    <script src="js/main.min.js"></script>\\n</body>\\n</html>',
+        'app/index.html': '<!DOCTYPE html>\\n<html lang="ru">\\n<head>\\n    <meta charset="UTF-8">\\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\\n    <link rel="stylesheet" href="css/style.css">\\n    <title>Project</title>\\n</head>\\n<body>\\n    <h1>Project Ready</h1>\\n    <script src="js/main.min.js"></script>\\n</body>\\n</html>',
         'app/scss/style.scss': \`@import 'components/style';
 @import 'components/main';
 @import 'components/header';
