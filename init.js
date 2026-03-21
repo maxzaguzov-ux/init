@@ -74,7 +74,14 @@ if (!(Test-Path -Path $PROFILE)) {
 New-Item -Type File -Path $PROFILE -Force
 }
 notepad $PROFILE
-далее скопировать из файла notepad $PROFILE и вставить в командную строку
+далее скопировать
+
+function gulp-build { gulp build }
+function gulp-init { gulp init }
+function gulp-clean { gulp cleandist }
+Set-Alias g gulp
+
+и вставить в командную строку
 `,
         deleteIfExists: true
     },
