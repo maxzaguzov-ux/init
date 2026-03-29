@@ -82,6 +82,14 @@ function gulp-clean { gulp cleandist }
 Set-Alias g gulp
 
 и вставить в командную строку
+
+Изменение политики 
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+установка gulp
+
+npm install --global gulp-cli
 `,
         deleteIfExists: true
     },
